@@ -10,7 +10,7 @@ from PIL import Image
 st.set_page_config(page_title="Family Mart Sentiment Analysis", layout="wide")
 
 # Load logo on top of sidebar
-logo_path = r"C:\Users\user\OneDrive\Documents\YEAR 3\SEPT SEM\FYP 2\Untitled design (16).png"
+logo_path = "Untitled design (16).png"
 logo = Image.open(logo_path)
 st.sidebar.image(logo, width=200)
 
